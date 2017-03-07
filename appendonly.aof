@@ -1,0 +1,33 @@
+*2
+$6
+SELECT
+$1
+0
+*3
+$4
+SADD
+$21
+_kombu.binding.celery
+$16
+celerycelery
+*3
+$5
+LPUSH
+$6
+celery
+$693
+{"body": "gAJ9cQEoVQdleHBpcmVzcQJOVQN1dGNxA4hVBGFyZ3NxBEsBSwKGcQVVBWNob3JkcQZOVQljYWxsYmFja3NxB05VCGVycmJhY2tzcQhOVQd0YXNrc2V0cQlOVQJpZHEKVSRmYmZiMmViYy03MTBiLTRmNjEtOTI1NC04Y2VkYzczODNkN2RxC1UHcmV0cmllc3EMSwBVBHRhc2txDVUGdDEuYWRkcQ5VCXRpbWVsaW1pdHEPTk6GVQNldGFxEE5VBmt3YXJnc3ERfXESdS4=", "headers": {}, "content-type": "application/x-python-serialize", "properties": {"body_encoding": "base64", "correlation_id": "fbfb2ebc-710b-4f61-9254-8cedc7383d7d", "reply_to": "d97bd56b-ece2-347e-87b5-dd933e76f42c", "delivery_info": {"priority": 0, "routing_key": "celery", "exchange": "celery"}, "delivery_mode": 2, "delivery_tag": "d21ab82f-e421-45b7-91b8-f4143d312dfa"}, "content-encoding": "binary"}
+*3
+$5
+LPUSH
+$6
+celery
+$693
+{"body": "gAJ9cQEoVQdleHBpcmVzcQJOVQN1dGNxA4hVBGFyZ3NxBEsBSwKGcQVVBWNob3JkcQZOVQljYWxsYmFja3NxB05VCGVycmJhY2tzcQhOVQd0YXNrc2V0cQlOVQJpZHEKVSQ3NjI2OTA1Yy0xZGE2LTQ4YzctYTY5YS1kYjJjNjAyMDJhM2NxC1UHcmV0cmllc3EMSwBVBHRhc2txDVUGdDEuYWRkcQ5VCXRpbWVsaW1pdHEPTk6GVQNldGFxEE5VBmt3YXJnc3ERfXESdS4=", "headers": {}, "content-type": "application/x-python-serialize", "properties": {"body_encoding": "base64", "correlation_id": "7626905c-1da6-48c7-a69a-db2c60202a3c", "reply_to": "aec3508e-2b2b-34af-a543-c3b1ca0b4866", "delivery_info": {"priority": 0, "routing_key": "celery", "exchange": "celery"}, "delivery_mode": 2, "delivery_tag": "91481b00-02a1-47d8-8948-e7f8c05239fd"}, "content-encoding": "binary"}
+*3
+$5
+LPUSH
+$6
+celery
+$693
+{"body": "gAJ9cQEoVQdleHBpcmVzcQJOVQN1dGNxA4hVBGFyZ3NxBEsBSwKGcQVVBWNob3JkcQZOVQljYWxsYmFja3NxB05VCGVycmJhY2tzcQhOVQd0YXNrc2V0cQlOVQJpZHEKVSQ4MmZmYzM3OC1lMzRkLTQwYWYtODg2My1hYjcwYWRhMzg5YmNxC1UHcmV0cmllc3EMSwBVBHRhc2txDVUGdDEuYWRkcQ5VCXRpbWVsaW1pdHEPTk6GVQNldGFxEE5VBmt3YXJnc3ERfXESdS4=", "headers": {}, "content-type": "application/x-python-serialize", "properties": {"body_encoding": "base64", "correlation_id": "82ffc378-e34d-40af-8863-ab70ada389bc", "reply_to": "a0b4a297-61cb-37d9-b017-56b502c57866", "delivery_info": {"priority": 0, "routing_key": "celery", "exchange": "celery"}, "delivery_mode": 2, "delivery_tag": "3b18aced-c5cb-4dee-826e-79270c344797"}, "content-encoding": "binary"}

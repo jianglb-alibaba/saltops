@@ -1,0 +1,10 @@
+*.log
+*.pot
+*.pyc
+local_settings.py
+doc/script/files/*
+.idea
+.idea/*
+db.sqlite3
+/doc/script
+/doc/scripts

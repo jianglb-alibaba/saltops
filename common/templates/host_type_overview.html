@@ -1,0 +1,27 @@
+<div id="host_type_overview"></div>
+
+<script>
+    $(function () {
+        $('#host_type_overview').highcharts({
+            title: {
+                text: '操作系统分布',
+                x: -20
+            },
+            xAxis: {
+                categories: [{% for o in module.os %}
+                    '{{ o }}',
+                {% endfor %}]
+            },
+            series: [
+                {
+                    'type': 'column',
+                    'data': [{% for o in module.total %}
+                        {{ o }},
+                    {% endfor %}
+                    ]
+                }],
+
+        });
+    });
+
+</script>

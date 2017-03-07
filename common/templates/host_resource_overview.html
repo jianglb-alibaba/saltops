@@ -1,0 +1,52 @@
+<div id="host_resource_overview"></div>
+
+<script>
+    $(function () {
+        $('#host_resource_overview').highcharts({
+            title: {
+                text: '资源使用率',
+                x: -20
+            },
+            chart: {
+                type: 'bar',
+                height: 243,
+            },
+            xAxis: {
+                categories: ['CPU使用率', '内存使用率']
+            },
+            yAxis: {
+                min: 0,
+                max: 100,
+                title: {
+                    text: '百分比'
+                }
+            },
+            tooltip: {
+                percentageDecimals: 1
+            },
+            legend: {
+                enabled: 'False'
+            },
+            plotOptions: {
+                series: {
+                    stacking: 'normal'
+                }
+            },
+            series: [{
+                name: 'CPU idle',
+                data: [{'y': {{ module.cpu_idel }}, 'color': '#EBEBEB'}, {'y': 0}],
+            }, {
+                name: 'CPU used',
+                data: [{'y': {{ module.cpu }}, 'color': '{{ module.cpu_color }}'}, {'y': 0}],
+            }, {
+                name: 'RAM free',
+                data: [{'y': 0}, {'y': {{ module.ram }}, 'color': '#EBEBEB'}],
+            }, {
+                name: 'RAM used',
+                data: [{'y': 0}, {'y': {{ module.ram_used }}, 'color': '{{module.ram_color}}'}],
+            }]
+
+        });
+    });
+
+</script>
